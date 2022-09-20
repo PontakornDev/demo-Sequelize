@@ -1,4 +1,4 @@
-const {Sequelize} = require("sequelize");
+const {Sequelize, queryInterface} = require("sequelize");
 
 const sequelize = new Sequelize(
    'test_db',
